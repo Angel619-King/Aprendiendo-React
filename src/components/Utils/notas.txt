@@ -1,0 +1,12 @@
+//este lo creamos con rafce
+import React from 'react'
+
+const ejercicio2 = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default ejercicio2

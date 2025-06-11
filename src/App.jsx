@@ -1,3 +1,7 @@
+import { Ejercicio01 } from "./components/ejercicio01"
+import { BotonActivar } from "./components/Utils/BotonCrearCuenta"
+import { Dosbotones } from "./components/Utils/Dosbotones"
+import { Ejercicio2 } from "./components/Utils/ejercicio2"
 
 function App() {
 
@@ -12,7 +16,13 @@ function App() {
           </h1>
         </div>
       </div>
-    </div>
+          {/**Mando a llamar a mi componente externo */}
+    <Ejercicio01></Ejercicio01>
+    <BotonActivar></BotonActivar>
+    <Dosbotones></Dosbotones>
+    <Ejercicio2></Ejercicio2>
+     </div>
+
     </>
   )
 }
